@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Quiz</title>
+<style>
+body {
+background-color: #E7DCE2;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height:250px;
+background: beige;
+background-image: url("office.jpg");
+
+color: black;
+}
+
+label {
+display: block;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+padding-top: 20px;
+}
+
+button {
+width: 100px;
+margin-top: 20px;
+}
+
+</style>
+
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>How well do you know quotes from 'The Office'?</h1>
+</div>
+<form id="form1">
+
+
+
+<h2>"I'm not superstitious, but I'm a little-stitious"-Michael</h2> 
+<label for="michael1"><input type="radio" name="michael" value="0" id="michael1" />Toby</label>
+<label for="michael1"><input type="radio" name="michael" value="0" id="michael1" />Creed</label>
+<label for="michael1"><input type="radio" name="michael" value="10" id="michael1" />Michael</label>
+<label for="michael1"><input type="radio" name="michael" value="0" id="michael1"/>Angela</label>
+
+<h2>"Bears. Beets. Battlestar Galactica"</h2>
+<label for="jim1"><input type="radio" name="jim" value="10" id="jim1"/>Jim.</label>
+<label for="jim1"><input type="radio" name="jim" value="0" id="jim1"/>Dwight.</label>
+<label for="jim1"><input type="radio" name="jim" value="0" id="jim1" />Creed</label>
+<label for="jim1"><input type="radio" name="jim" value="0" id="jim1" />Michael</label>
+
+<h2>"Whenever I'm about to do something, I think, 'Would an idiot do that?' And if they would, I do not do that thing."</h2>
+<label for="dwight1"><input type="radio" name="dwight" value="0" id="dwight1" />Toby</label>
+<label for="dwight1"><input type="radio" name="dwight" value="10" id="dwight1" />Dwight</label>
+<label for="dwight1"><input type="radio" name="dwight" value="0" id="dwight1" />Jim</label>
+<label for="dwight1"><input type="radio" name="dwight" value="0" id="dwight1" />Pam</label>
+
+<h2>"I just wanna lie on the beach and eat hot dogs"</h2>
+<label for="kevin1"><input type="radio" name="kevin" value="0" id="kevin1" />Michael</label>
+<label for="kevin1"><input type="radio" name="kevin" value="0" id="kevin1" />Creed</label>
+<label for="kevin1"><input type="radio" name="kevin" value="0" id="kevin1" />Stanley</label>
+<label for="kevin1"><input type="radio" name="kevin"  value="10" id="kevin1" />Kevin</label>
+
+<h2>"I am one of the few people who looks hot eating a cupcake"</h2>
+<label for="kelly1"><input type="radio" name="kelly" value="10" id="kelly1" />Kelly</label>
+<label for="kelly1"><input type="radio" name="kelly" value="0" id="kelly1" />Ryan</label>
+<label for="kelly1"><input type="radio" name="kelly" value="0" id="kelly1" />Michael</label>
+<label for="kelly1"><input type="radio" name="kelly"  value="0" id="kelly1" />Pam</label>
+
+<h2>"If you pray enough, you can turn yourself into a cat person"</h2>
+<label for="angela1"><input type="radio" name="angela" value="0" id="angela1" />Oscar</label>
+<label for="angela1"><input type="radio" name="angela" value="0" id="angela1" />Kelly</label>
+<label for="angela1"><input type="radio" name="angela" value="10" id="angela1" />Angela</label>
+<label for="angela1"><input type="radio" name="angela"  value="0" id="angela1" />Pam</label>
+
+<h2>"Saddle shoes with denim? I will literally call child protective services"</h2>
+<label for="oscar1"><input type="radio" name="oscar" value="10" id="oscar1" />Oscar</label>
+<label for="oscar1"><input type="radio" name="oscar" value="0" id="oscar1" />Michael</label>
+<label for="oscar1"><input type="radio" name="oscar" value="0" id="oscar1" />Pam</label>
+<label for="oscar1"><input type="radio" name="oscar"  value="0" id="oscar1" />Angela</label>
+
+<h2>"Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way."</h2>
+<label for="michael2"><input type="radio" name="scott" value="0" id="michael2" />Jim</label>
+<label for="michael2"><input type="radio" name="scott" value="10" id="michael2" />Michael</label>
+<label for="michael2"><input type="radio" name="scott" value="0" id="michael2" />Kelly</label>
+<label for="michael2"><input type="radio" name="scott"  value="0" id="michael2" />Kevin</label>
+
+<h2>"Just pretend like we're talking until the cops leave"</h2>
+<label for="creed1"><input type="radio" name="creed" value="0" id="creed1" />Dwight</label>
+<label for="creed1"><input type="radio" name="creed" value="10" id="creed1" />Creed</label>
+<label for="creed1"><input type="radio" name="creed" value="0" id="creed1" />Meredith</label>
+<label for="creed1"><input type="radio" name="creed"  value="0" id="creed1" />Michael</label>
+
+
+<h2>"I hate the idea that someone out there hates me. I even hate thinking that Al-Qaeda hates me."</h2>
+<label for="pam1"><input type="radio" name="pam" value="0" id="pam1" />Andy</label>
+<label for="pam1"><input type="radio" name="pam" value="0" id="pam1" />Kelly</label>
+<label for="pam1"><input type="radio" name="pam" value="10" id="pam1" />Pam</label>
+<label for="pam1"><input type="radio" name="pam"  value="0" id="pam1" />Michael</label>
+
+<button type="submit" value="Submit">Submit</button>
+
+</form>
+    
+<p>Your grade is: <span id="grade">__</span></p>
+<p id="grade2"></p>
+
+
+
+<script>
+document.getElementById("form1").onsubmit=function() {
+       michael = parseInt(document.querySelector('input[name = "michael"]:checked').value);
+	   jim = parseInt(document.querySelector('input[name = "jim"]:checked').value);
+	   dwight = parseInt(document.querySelector('input[name = "dwight"]:checked').value);
+	   kevin = parseInt(document.querySelector('input[name = "kevin"]:checked').value);
+	   kelly = parseInt(document.querySelector('input[name = "kelly"]:checked').value);
+	   angela = parseInt(document.querySelector('input[name = "angela"]:checked').value);
+	   oscar = parseInt(document.querySelector('input[name = "oscar"]:checked').value);
+	   scott = parseInt(document.querySelector('input[name = "scott"]:checked').value);
+	   creed = parseInt(document.querySelector('input[name = "creed"]:checked').value);
+	   pam = parseInt(document.querySelector('input[name = "pam"]:checked').value);
+	   
+	   
+	   result = michael + jim + dwight + kevin + kelly + angela + oscar + scott + creed + pam;
+	   
+	document.getElementById("grade").innerHTML = result;
+	   
+if (result == 0) {result2 = "You did great! FALSE. You missed every question, time to go binge watch all the seasons!<br /><img src='false.jpg' width='300'/>"};
+if (result == 10) {result2 ="Terrible! You should be ashamed.<br /><img src='stanley.jpg' width='300'/>"};
+if (result == 20) {result2 = "Looks like you'll be spending the rest of your day binge watching the office<br /><img src='michael.jpg' width='300'/>"};
+if (result == 30) {result2 = "Dwight would be ashamed<br /><img src='dwight.jpg' width='300'/>"};
+if (result == 40) {result2 = "Seems like you've forgotten some of your Office knowlege.Try again.<br /><img src='angela.jpg' width='300'/>"};
+if (result == 50) {result2 = "You're halfway there, keep trying</br><img src:'kevin.jpg' width='300'/>"};
+if (result == 60) {result2 = "You can do better than that!"};
+if (result == 70) {result2 = "Looks like you're a mediocre fan of the Office"};
+if (result == 80) {result2 = "Maybe you should brush up on your knowlege by watching a couple more Office episodes<br /><img src='shrug.jpg' width='300'/>"};
+if (result == 90) {result2 = "So close! You seem like a fan-- but are you really? Prove it and try again.<br /><img src='jimpam.jpg' width='300'/>"};
+if (result == 100) {result2 = "Wow!! You are a true office fan, good job<br /><img src='dance.jpg' width='300'/>"};
+document.getElementById("grade2").innerHTML =result2; 
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+</script>
+
+
+</div>
+</body>
+</html>
+
